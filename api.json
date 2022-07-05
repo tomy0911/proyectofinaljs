@@ -1,0 +1,56 @@
+[
+    {
+        "precio": 176000,
+        "id": 1,
+        "title": "SamsungS22+",
+        "thumbnailUrl": "https://images.samsung.com/ar/smartphones/galaxy-s22/buy/S22plus_ColorSelection_PhantomBlack_MO.jpg"
+    },
+    {
+        "precio": 256000,
+        "id": 2,
+        "title": "IPhone13",
+        "thumbnailUrl": "https://phonesdata.com/files/models/Apple-iPhone-13-542.jpg"
+    },
+    {
+        "precio": 76000,
+        "id": 3,
+        "title": "SamsungA53 5G",
+        "thumbnailUrl": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/643/020/products/celular-samsung-a53-5g11-d66fa47dbb27abffb816504724678500-640-0.png"
+    },
+    {
+        "precio": 128000,
+        "id": 4,
+        "title": "MotorolaEdge 30 Pro",
+        "thumbnailUrl": "https://www.clarin.com/img/2022/02/24/el-motorola-edge-30-pro___0S-xwTcEn_720x0__1.jpg"
+    },
+    {
+        "precio": 72000,
+        "id": 5,
+        "title": "SamsungS20 FE",
+        "thumbnailUrl": "https://images.samsung.com/is/image/samsung/assets/ar/s20-buy/S20-FE_Navy_SKUimage_MO-img.jpg"
+    },
+    {
+        "precio": 243000,
+        "id": 6,
+        "title": "XiaomiMi 11 Ultra",
+        "thumbnailUrl": "https://www.wondamobile.com/pub/media/catalog/product/cache/229c377c2cfbd966aed33983eeb919aa/m/i/mi_11_ultra_all_-_2_1.png"
+    },
+    {
+        "precio": 42000,
+        "id": 7,
+        "title": "SamsungM12",
+        "thumbnailUrl": "https://nissei.com/media/catalog/product/cache/16a9529cefd63504739dab4fc3414065/s/a/samsung-galaxy-m12-4gb-64gb-dual-sim-azul_2.jpg"
+    },
+    {
+        "precio": 28500,
+        "id": 8,
+        "title": "SamsungA03",
+        "thumbnailUrl": "https://cf.shopee.com.ar/file/8a189b17ccb53218dbf788476ca340a1"
+    },
+    {
+        "precio": 147500,
+        "id": 9,
+        "title": "IPhone 11",
+        "thumbnailUrl": "https://www.macstation.com.ar/img/productos/small/1684-1.jpg"
+    }
+]
