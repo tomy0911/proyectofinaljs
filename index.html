@@ -5,15 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProyectoFinal</title>
-    <link rel="stylesheet" href="estilos.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="content">
+            <img src="/img/logo.png" class="logo" alt="logo">
+            <p class="sub-heading">El hogar de la Tecnología</p>
+        </div>
+    </header>
+
+    <nav class="navbar"></nav>
+
     <div class="container">
-        <img class="logo" src="/logo.png" alt="logo">
-        
+
         <div class="my-5">
             <h4>Carrito de compras</h4>
             <table class="table">
@@ -36,7 +46,6 @@
         </div>
 
         <div class="row" id="contenedor-productos"></div>
-
 
     </div>
 
@@ -78,16 +87,58 @@
                     </h5>
                     <p class="card-text">$ <span>5000</span></p>
                     <button id="boton" class="btn btn-dark">
-                        Comprar
+                        Agregar al carrito
                     </button>
                 </div>
             </div>
         </div>
     </template>
 
-    <script src="/main.js"></script>
-    <script src="/toastify.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <footer></footer>
+
+    <!-- Filtro de busqueda sin funcionar -->
+    <!-- <script>
+        function ajax_get_json(celularIngresado) {
+            var resultado = document.getElementById("template-productos");
+            var xmlhttp;
+
+            if (window.XMLHttpRequest) {
+                xmlhttp = new XMLHttpRequest();
+            } else {
+                xmlhttp = ActiveXObject("Microsoft.XMLHTTP");
+            }
+
+            if (celularIngresado.length === 0) {
+                resultado.innerHTML = "";
+            } else {
+                xmlhttp.onreadystatechange = function () {
+                    if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
+                        var datos = JSON.parse(xmlhttp.responseText);
+
+                        var x = encontrarProducto(datos, celularIngresado);
+                        var mensaje = (x === true) ? "<span class = 'encontrado'>Si fue encontrado</>" :
+                            "<span class = 'no-encontrado'>No fue encontrado</>";
+                                resultado.innerHTML = mensaje;
+                    }
+                }
+                xmlhttp.open("GET", "datos.json", true);
+                xmlhttp.send();
+            }
+        }
+        function encontrarProducto(objetoJSON, productos)
+        {
+            var arreglo = [];
+            for(var i in objetoJSON){
+                var celular = objetoJSON[i];
+                arreglo.push(celular.title)
+            }
+            return arreglo.indexOf(productos) > -1;
+        }
+    </script> -->
+
+    <script src="/js/main.js"></script>
+    <script src="/js/footer.js"></script>
+    <script src="/js/nav.js"></script>
 </body>
 
 </html>

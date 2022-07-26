@@ -1,0 +1,39 @@
+@import "nav.css";
+@import "footer.css";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    width: 100%;
+    height: calc(120vh - 100px);
+    background-image: url("/img/hero3.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section .logo {
+    height: 200px;
+    display: block;
+    margin: auto;
+
+}
+
+.hero-section .sub-heading {
+    font-family: 'Comfortaa', cursive;
+    margin-top: -50px;
+    text-align: center;
+    color: #efefef;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 10;
+}
+
+table {
+    background-color: azure;
+}

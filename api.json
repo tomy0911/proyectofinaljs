@@ -1,56 +1,111 @@
 [
     {
-        "precio": 176000,
+        "precio": 234000,
         "id": 1,
-        "title": "SamsungS22+",
+        "title": "Samsung S22+",
         "thumbnailUrl": "https://images.samsung.com/ar/smartphones/galaxy-s22/buy/S22plus_ColorSelection_PhantomBlack_MO.jpg"
     },
     {
-        "precio": 256000,
+        "precio": 368000,
         "id": 2,
-        "title": "IPhone13",
+        "title": "IPhone 13",
         "thumbnailUrl": "https://phonesdata.com/files/models/Apple-iPhone-13-542.jpg"
     },
     {
-        "precio": 76000,
+        "precio": 97500,
         "id": 3,
-        "title": "SamsungA53 5G",
+        "title": "Samsung A53 5G",
         "thumbnailUrl": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/643/020/products/celular-samsung-a53-5g11-d66fa47dbb27abffb816504724678500-640-0.png"
     },
     {
-        "precio": 128000,
+        "precio": 143650,
         "id": 4,
-        "title": "MotorolaEdge 30 Pro",
+        "title": "Motorola Edge 30 Pro",
         "thumbnailUrl": "https://www.clarin.com/img/2022/02/24/el-motorola-edge-30-pro___0S-xwTcEn_720x0__1.jpg"
     },
     {
-        "precio": 72000,
+        "precio": 94500,
         "id": 5,
-        "title": "SamsungS20 FE",
+        "title": "Samsung S20 FE",
         "thumbnailUrl": "https://images.samsung.com/is/image/samsung/assets/ar/s20-buy/S20-FE_Navy_SKUimage_MO-img.jpg"
     },
     {
-        "precio": 243000,
+        "precio": 298500,
         "id": 6,
         "title": "XiaomiMi 11 Ultra",
         "thumbnailUrl": "https://www.wondamobile.com/pub/media/catalog/product/cache/229c377c2cfbd966aed33983eeb919aa/m/i/mi_11_ultra_all_-_2_1.png"
     },
     {
-        "precio": 42000,
+        "precio": 58500,
         "id": 7,
-        "title": "SamsungM12",
+        "title": "Samsung M12",
         "thumbnailUrl": "https://nissei.com/media/catalog/product/cache/16a9529cefd63504739dab4fc3414065/s/a/samsung-galaxy-m12-4gb-64gb-dual-sim-azul_2.jpg"
     },
     {
-        "precio": 28500,
+        "precio": 38500,
         "id": 8,
-        "title": "SamsungA03",
+        "title": "Samsung A03",
         "thumbnailUrl": "https://cf.shopee.com.ar/file/8a189b17ccb53218dbf788476ca340a1"
     },
     {
-        "precio": 147500,
+        "precio": 165000,
         "id": 9,
         "title": "IPhone 11",
         "thumbnailUrl": "https://www.macstation.com.ar/img/productos/small/1684-1.jpg"
+    },
+    {
+        "precio": 296000,
+        "id": 10,
+        "title": "Samsung S22 Ultra",
+        "thumbnailUrl": "https://images.samsung.com/ar/smartphones/galaxy-s22-ultra/buy/S22Ultra_ColorSelection_Burgundy_MO.jpg?imwidth=480"
+    },
+    {
+        "precio": 67200,
+        "id": 11,
+        "title": "Motorola G71 5G",
+        "thumbnailUrl": "https://images.fravega.com/f500/5023dc40df851918551c3cd7387d9dd1.jpg"
+    },
+    {
+        "precio": 85500,
+        "id": 12,
+        "title": "Xiaomi Mi 9T Dual ",
+        "thumbnailUrl": "https://www.aipedigital.com/wp-content/uploads/2020/11/xiaomi-mi-9t-64gb-dual-sim-rojo-600x600.jpg"
+    },
+    {
+        "precio": 212450,
+        "id": 13,
+        "title": "OnePlus 10 Pro",
+        "thumbnailUrl": "https://gizmobo.com/wp-content/uploads/2022/01/oneplus-10-pro-extra.webp"
+    },
+    {
+        "precio": 56780,
+        "id": 14,
+        "title": "Motorola G52",
+        "thumbnailUrl": "https://coppelar.vtexassets.com/arquivos/ids/1712084/198_6285a65f92639.jpg?v=637885234872870000"
+    },
+    {
+        "precio": 175400,
+        "id": 15,
+        "title": "Samsung ZFlip 3 5G",
+        "thumbnailUrl": "https://cdn11.bigcommerce.com/s-ss31ap/images/stencil/1280x1280/products/7944/37949/415p4uQ9GfL__52023.1634008359.jpg?c=2"
+    },
+    {
+        "precio": 123500,
+        "id": 16,
+        "title": "Iphone Xr",
+        "thumbnailUrl": "https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/09/20095113/iPhone-XR2.jpg"
+    },
+    {
+        "precio": 148500,
+        "id": 17,
+        "title": "Samsung S21 FE",
+        "thumbnailUrl": "https://images.samsung.com/is/image/samsung/assets/pt/2201/preorder/1_image_carousel/4_product_image/S21FE_Carousel_ProductImage_White_MO.jpg"
+    },
+    {
+        "precio": 74500,
+        "id": 18,
+        "title": "Motrola G9 Plus",
+        "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_829254-MLA43875404493_102020-O.jpg"
     }
+    
 ]
